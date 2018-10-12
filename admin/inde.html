@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<link href="https://cdn.bootcss.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet">
+	</head>
+	<body>
+		<div id="app">
+<!--			<div class="bs-example" data-example-id="bordered-table">
+			    <table class="table table-bordered">
+			      <thead>
+			        <tr>
+			          <th><input type="checkbox" /></th>
+			          <th>文章ID</th>r
+			          <th>文章标签</th>
+			          <th>文章标题</th>
+			          <th>作者</th>
+			          <th>上传时间</th>
+			          <th>发布状态</th>
+			          <th>操作</th>
+			        </tr>
+			      </thead>
+			      <tbody>
+			        <tr>
+			          <th><input type="checkbox" /></th>
+			          <th scope="row">001</th>
+			          <td>美食</td>
+			          <td>舌尖上的中国第一季</td>
+			          <td>作者1</td>
+			          <td>20121204</td>
+			          <td><button>已发布</button></td>
+			          <td><button>编辑</button><button>删除</button></td>
+			        </tr>-->
+			        <note v-for="(tr,index) in trs"  :todo="tr" :key="index"></note>
+<!--			      </tbody>
+			    </table>
+ 			 </div>-->
+			 
+		</div>
+		
+		
+<script src="https://cdn.bootcss.com/vue/2.5.16/vue.js"></script>
+<script src="https://cdn.bootcss.com/lodash.js/4.17.10/lodash.min.js"></script>
+<script src="https://cdn.bootcss.com/moment.js/2.22.1/moment.min.js"></script>
+<script src="https://cdn.bootcss.com/moment.js/2.22.1/locale/zh-cn.js"></script>
+<script src="https://cdn.bootcss.com/autosize.js/4.0.2/autosize.min.js"></script>
+<script src="../js/admi.js" type="text/javascript" charset="utf-8"></script>
+	</body>
+</html>
